@@ -15619,6 +15619,11 @@
   "RootNamespace": "MvcMoive",
   "Documents": [
     {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Tests\\Details.cshtml",
+      "TargetPath": "Views\\Tests\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -15626,6 +15631,16 @@
     {
       "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\HelloWorld\\Welcome.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Movies\\Create.cshtml",
+      "TargetPath": "Views\\Movies\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15639,8 +15654,48 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Movies\\Edit.cshtml",
+      "TargetPath": "Views\\Movies\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Tests\\Create.cshtml",
+      "TargetPath": "Views\\Tests\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Movies\\Delete.cshtml",
+      "TargetPath": "Views\\Movies\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\HelloWorld\\Index.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Tests\\Index.cshtml",
+      "TargetPath": "Views\\Tests\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Tests\\Edit.cshtml",
+      "TargetPath": "Views\\Tests\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\HelloWorld\\Demo.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Demo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Tests\\Delete.cshtml",
+      "TargetPath": "Views\\Tests\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15649,8 +15704,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Movies\\Details.cshtml",
+      "TargetPath": "Views\\Movies\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\NetCore\\MvcMoive\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\MvcMoive\\Views\\Movies\\Index.cshtml",
+      "TargetPath": "Views\\Movies\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
