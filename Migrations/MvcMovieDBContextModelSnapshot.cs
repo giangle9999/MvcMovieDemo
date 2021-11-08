@@ -15,6 +15,22 @@ namespace MvcMoive.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.11");
 
+            modelBuilder.Entity("MvcMovie.Models.Employee", b =>
+                {
+                    b.Property<string>("EmployeeID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("EmployeeName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("EmployeeID");
+
+                    b.ToTable("Employee");
+                });
+
             modelBuilder.Entity("MvcMovie.Models.Movie", b =>
                 {
                     b.Property<int>("Id")
@@ -36,6 +52,67 @@ namespace MvcMoive.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Movies");
+                });
+
+            modelBuilder.Entity("MvcMovie.Models.Person", b =>
+                {
+                    b.Property<string>("PersonID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PersonName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("PersonID");
+
+                    b.ToTable("Person");
+                });
+
+            modelBuilder.Entity("MvcMovie.Models.Product", b =>
+                {
+                    b.Property<string>("ProductID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProductName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Quantity")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UnitPrice")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("ProductID");
+
+                    b.ToTable("Product");
+                });
+
+            modelBuilder.Entity("MvcMovie.Models.Student", b =>
+                {
+                    b.Property<string>("StudentId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("StudentName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("address")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("StudentId");
+
+                    b.ToTable("Student");
+                });
+
+            modelBuilder.Entity("MvcMovie.Models.Test", b =>
+                {
+                    b.Property<string>("TestID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("TestName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("TestID");
+
+                    b.ToTable("Tests");
                 });
 #pragma warning restore 612, 618
         }
